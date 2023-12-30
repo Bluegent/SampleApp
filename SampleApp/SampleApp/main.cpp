@@ -1,7 +1,11 @@
 #include <iostream>
 
 
-
+//write a function that returns the max of two integers
+int32_t max(int32_t a, int32_t b)
+{
+    return a > b ? a : b;
+}
 
 //let's print the command line arguments
 int main(int argc, const char * argv[])
