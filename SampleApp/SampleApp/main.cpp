@@ -7,6 +7,12 @@ int32_t max(int32_t a, int32_t b)
     return a > b ? a : b;
 }
 
+//write a function that returns the min of two integers
+int32_t min(int32_t a, int32_t b)
+{
+    return a < b ? a : b;
+}
+
 //let's print the command line arguments
 int main(int argc, const char * argv[])
 {
