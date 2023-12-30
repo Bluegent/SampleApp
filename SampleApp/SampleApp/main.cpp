@@ -4,11 +4,7 @@
 //write a function that returns the absolute of an integer
 int32_t abs(int32_t num)
 {
-    if (num > 0)
-    {
-        return num;
-    }
-    return -1 * num;
+    return num > 0 ? num : -1 * num;
 }
 
 
