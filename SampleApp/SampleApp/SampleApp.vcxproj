@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="args.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="math_func.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="args.h" />
+    <ClInclude Include="math_func.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
