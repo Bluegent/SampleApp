@@ -24,12 +24,18 @@
     <ClCompile Include="math_func.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="valid_link.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="args.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="math_func.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="valid_link.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

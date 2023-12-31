@@ -1,6 +1,7 @@
 #include <iostream>
 #include "args.h"
 #include "math_func.h"
+#include "valid_link.h"
 
 
 
@@ -9,4 +10,5 @@ int main(int argc, const char * argv[])
 {
     //printArgs(argc, argv);
     math_func_main();
+    valid_link_main();
 }
